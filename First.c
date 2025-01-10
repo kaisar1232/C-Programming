@@ -1,0 +1,18 @@
+/*
+this file gives error beacuse we can use static in gobal 
+variable
+
+*/
+#include<stdio.h>
+
+int x = 21;
+
+extern int no;
+
+int main()
+{
+    printf("%d\n",x); 
+    printf("%d\n",no); 
+  
+    return 0;
+}
